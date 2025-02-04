@@ -56,7 +56,7 @@ function checkPerfect(x) {
 //Function to check for armstrong number
 
 function checkArmstrong(x) {
-  const baseNumbers = parseInt(x).toString().split("")
+  const baseNumbers = parseInt(x).toString().split("") //removes unnecessary zeroes
   const baseLength = baseNumbers.length
   let sum = 0;
   for (let i = 0; i < baseLength; i++) {
